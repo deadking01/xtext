@@ -1,0 +1,9 @@
+grammar com.huawei.wuqf.domainmodel.Domainmodel with org.eclipse.xtext.common.Terminals
+
+generate domainmodel "http://www.huawei.com/wuqf/domainmodel/Domainmodel"
+
+Model:
+	greetings+=Greeting*;
+	
+Greeting:
+	'Hello' name=ID '!';
