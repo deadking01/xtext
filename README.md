@@ -1,2 +1,0 @@
-# xtext
-xtext demos
